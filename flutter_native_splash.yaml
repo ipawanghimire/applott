@@ -1,0 +1,13 @@
+flutter_native_splash:
+  image: assets/appImage/splash.png
+  color: "#FFFFFF"
+  fullscreen: true
+  android: true
+  ios: true
+  image_padding: EdgeInsets.all(50.0)
+  android_gravity: center
+  ios_content_mode: center
+  android_12:
+    background_color: "#FF0000"
+    foreground_color: "#000000"
+    android_splash_path: "res/drawable-v31/splash.xml"
